@@ -22,6 +22,8 @@ login_manager = LoginManager()
 login_manager.init_app(app)
 login_manager.login_view = 'login'
 
+app.config['SESSION_PERMANENT'] = False
+
 users = {'mike': {'password': 'milk_123'}}
 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///site123.db' # Local SQLite database
