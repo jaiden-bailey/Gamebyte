@@ -63,20 +63,19 @@
   </head>
   <body>
     <nav>
-      <a class="navbar-brand" href="#">GameByte</a>
-      <a href="#">Home</a>
-      <a href="#">Login</a>
-      <a href="#">Reviews</a>
-      <a href="#">Register</a>
+      <a href="/">Home</a>
+      <a href="/login">Login</a>
+      <a href="/reviews">Reviews</a>
+      <a href="/register">Register</a>
     </nav>
     <div class="container">
-      <h2>Enter a City:</h2>
-      <form action="#">
+      <h2>Enter a Place:</h2>
+      <form action="/get-weather" method="post">
         <input
           type="text"
           id="cityInput"
           name="city"
-          placeholder="Enter a city..."
+          placeholder="Enter a Place"
         />
         <input type="submit" value="Submit" />
       </form>
