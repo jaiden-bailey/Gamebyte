@@ -2,7 +2,7 @@
 
 # Flask Web Application
 
-This Flask web application provides a basic user authentication system, allowing users to register, login, and access protected pages. It uses Flask, Flask-Login, Flask-Session, Flask-SQLAlchemy, and Werkzeug for security.
+This Flask web application provides a basic user authentication system, allowing users to register, login, and access protected pages. It uses Flask, Flask-Login, Flask-Session, Flask-SQLAlchemy, Werkzeug for security and an integrated API
 
 ## Features
 
@@ -11,6 +11,7 @@ This Flask web application provides a basic user authentication system, allowing
 - Session management
 - Protected routes that require authentication
 - SQLite database integration
+- API integration
 
 ## Installation
 
